@@ -1,0 +1,30 @@
+/*History Schema*/
+{
+    objectID:{
+        type:Integer,
+        required:true
+    },
+    operation:{
+        type:Boolean,
+        required:true
+    },
+    number:{
+        type:Integer,
+        required:true
+    },
+    createdBy: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'User'
+    },
+    reason: {
+        type: String,
+        required: true
+    },
+    
+    timestamp:{
+        type:Integer,
+        required:true
+    }
+
+}

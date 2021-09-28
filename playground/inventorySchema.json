@@ -1,0 +1,31 @@
+/*Item Schema*/
+{
+    componentName:{
+        type:String,
+        reqired:true
+    },
+    description:{
+        type:String,
+        reqired:true
+    },
+    numAvailable:{
+        type:Integer,
+        required:true
+    },
+    numInUse:{
+        type:Integer,
+        required:true
+    },
+    numExpired:{
+        type:Integer,
+        required:true
+    },
+    origStock:{
+        type:Integer,
+        required:true
+    },
+    currStock:{
+        type:Integer,
+        required:true
+    }
+}

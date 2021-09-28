@@ -1,0 +1,5 @@
+.env
+/config
+dev.env
+node_modules/
+

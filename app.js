@@ -20,7 +20,7 @@ connection.once('open', () => {
 })
 
 app.get('/', (req, res) => {
-    res.status(200).send("Hello, world!")
+    res.status(200).send("Inventory Management")
 })
 
 app.listen(port, () => {
